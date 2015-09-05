@@ -1,0 +1,29 @@
+{
+  "name": "coolfactor",
+  "version": "1.0.0",
+  "description": "Analyze your Github \"cool factor\"",
+  "main": "index.html",
+  "dependencies": {
+    "github-api": "^0.10.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephmilla/coolfactor.git"
+  },
+  "keywords": [
+    "github",
+    "cool",
+    "factor",
+    "repo"
+  ],
+  "author": "Joseph Milla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephmilla/coolfactor/issues"
+  },
+  "homepage": "https://github.com/josephmilla/coolfactor#readme"
+}
