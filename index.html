@@ -65,18 +65,23 @@
               <div class="container-fluid">
                 <center>
                   <div class="row">
-                    <span class="inside-title">Enter the URL you want to analyze</span>
+                    <span class="inside-title">Enter the username you want to analyze</span>
                   </div>
 
                   <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
                       <div class="input-group">
-                        <span class="input-group-addon">Enter URL</span>
+                        <span class="input-group-addon">Enter username</span>
                         <input id="URLform" type="text" class="form-control" aria-label="Enter URL">
-                        <span class="input-group-addon addon addon-primary" onclick="process()"><span class="glyphicon glyphicon-arrow-right"></span></span>
+                        <span class="input-group-addon addon addon-primary" onclick="getUsername()"><span class="glyphicon glyphicon-arrow-right"></span></span>
                       </div>
+
                       <br><br>
+
+                      <div id="score">
+
+                      </div>
                     </div>
                     <div class="col-md-2"></div>
                   </div>
@@ -93,6 +98,7 @@
     <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/spectrum/spectrum.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="node_modules/github-api/github.js"></script>
+    <script src="assets/js/coolfactor.js"></script>
   </body>
 </html>
